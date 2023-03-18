@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show All Countries from our World</title>
+    <style>
+        .cntr {
+            border: 2px solid rgba(192, 192, 192, 0.61);
+            border-radius: 2px;
+            padding: 20px;
+        }
+
+        #countries {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+        }
+
+        .details {
+            width: 50%;
+            margin: auto;
+            border: 3px dashed burlywood;
+            padding-left: 20px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section>
+        <div id="details"></div>
+
+        <h1>Show All Countries</h1>
+
+        <div id="countries"></div>
+
+
+    </section>
+    <script src="js/country.js"></script>
+</body>
+
+</html>
